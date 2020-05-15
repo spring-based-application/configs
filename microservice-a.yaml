@@ -12,3 +12,7 @@ eureka:
 
   instance:
     preferIpAddress: true
+
+microserviceB:
+  url:
+    getInfo: http://MICROSERVICE-B/app/getInfo
