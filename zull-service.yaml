@@ -1,0 +1,25 @@
+server:
+  port: 8100
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+
+  instance:
+    preferIpAddress: true
+
+zuul:
+  routes:
+    microservice-a:
+      url: MICROSERVICE-A
+    microservice-b:
+      url: MICROSERVICE-B
+    microservice-c:
+      url: MICROSERVICE-C
+    microservice-d:
+      url: MICROSERVICE-D
+    microservice-e:
+      url: MICROSERVICE-E
