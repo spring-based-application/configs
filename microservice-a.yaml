@@ -16,3 +16,15 @@ eureka:
 microserviceB:
   url:
     getInfo: http://MICROSERVICE-B/app/getInfo
+
+microserviceC:
+  url:
+    getInfo: http://MICROSERVICE-C/app/getInfo
+
+microserviceD:
+  url:
+    getInfo: http://MICROSERVICE-D/app/getInfo
+
+microserviceE:
+  url:
+    getInfo: http://MICROSERVICE-E/app/getInfo
