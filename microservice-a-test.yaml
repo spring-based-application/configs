@@ -2,35 +2,6 @@ spring:
   application:
     name: microservice-a
 
-  profiles:
-    active: test
-
 server:
-  port: 8081
+  port: 9091
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
-
-  instance:
-    preferIpAddress: true
-
-microserviceB:
-  url:
-    getInfo: http://MICROSERVICE-B/app/getInfo
-
-microserviceC:
-  url:
-    getInfo: http://MICROSERVICE-C/app/getInfo
-
-microserviceD:
-  url:
-    getInfo: http://MICROSERVICE-D/app/getInfo
-
-microserviceE:
-  url:
-    getInfo: http://MICROSERVICE-E/app/getInfo
-
-
-test: trueAAA
