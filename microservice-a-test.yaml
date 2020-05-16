@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: microservice-a
-
-server:
-  port: 9091
-
