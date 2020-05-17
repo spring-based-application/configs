@@ -19,6 +19,8 @@ management:
       exposure:
         include: "*"
 
+      base-path=/:
+
 microserviceB:
   url:
     getInfo: http://MICROSERVICE-B/app/getInfo
