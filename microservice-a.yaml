@@ -17,9 +17,9 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: hystrix.stream
 
-      base-path=/:
+      base-path: /
 
 microserviceB:
   url:
